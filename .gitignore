@@ -20,6 +20,11 @@
 *.tar
 *.zip
 
+# sass-cache #
+############
+.sass-cache
+*.scssc
+
 # Logs and databases #
 ######################
 *.log

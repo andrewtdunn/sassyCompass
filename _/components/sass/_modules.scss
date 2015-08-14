@@ -1,0 +1,51 @@
+// Speakers ----------------------------------------------------------------------
+.speakers{
+    .artist{
+        @include clearfix;
+
+        h3{
+            padding: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px dotted $lightgray;
+            margin-bottom: 5px;
+        } //h3
+    } // artist
+} // speakers
+
+// next meeting ----------------------------------------------------------------------
+
+#nextmeeting{
+    @include clearfix;
+    img{
+        @include border-radius;
+        width: 30%;
+        max-width: 130px;
+        float: left;
+        margin-right: 3%;
+    } // img
+} // next meeting
+
+// Social Meeting Icons ------------------------------------------------------------
+
+.socialmediaicons {
+    float: left;
+    li {
+        display: inline-block;
+        margin-left: 5px;
+        img {
+            width: 15px;
+            @include border-radius(50%);
+        } // img
+    } // li
+} // socialmedialicons
+
+// Photogrid --------------------------------------------------------------------------
+.pixgrid {
+    @include clearfix;
+    img{
+        @include border-radius;
+        width: 30%;
+        max-width: 120px;
+        cursor: pointer;
+    } // img
+} // pixgrid
